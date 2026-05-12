@@ -1,0 +1,40 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Security - DO NOT COMMIT
+.vault_key
+.env
+
+# Logs
+logs/
+*.log
+
+# Data (sensitive)
+data/raw/
+
+# Great Expectations
+.gx/
